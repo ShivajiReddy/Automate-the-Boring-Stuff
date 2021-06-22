@@ -4,5 +4,5 @@ myName = input()
 print('The length of your name is:' + str(len(myName)))
 print ('What is your age?')
 myAge = input()
-print('You will be ' + str(int(myAge) + 1) + 'in a year')
+print('You will be ' + str(int(myAge) + 1) + ' in a year')
 
