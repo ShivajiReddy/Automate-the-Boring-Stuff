@@ -18,4 +18,12 @@ RegEx:
 
 
 import re #Built in regex package
+haRegex = re.compile(r'(Ha){3}')
+>>> mo1 = haRegex.search('HaHaHa')
+>>> mo1.group()
+'HaHaHa'
+
+>>> mo2 = haRegex.search('Ha')
+>>> mo2 == None
+
 
